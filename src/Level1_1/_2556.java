@@ -1,6 +1,6 @@
-package _2557;
+package Level1_1;
 
-public class Main {
+public class _2556 {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
