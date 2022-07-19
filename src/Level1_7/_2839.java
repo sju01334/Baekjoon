@@ -12,9 +12,9 @@ public class _2839 {
         int cnt = 1;
 
         while(true){
-            if(n%5 == 3){
+            if(n%5 == 3 || n%5 ==0){
                 result += n/5;
-                result += result/3;
+                result += n%5/3;
                 break;
             }else {
                 if(n < (n%5 + 5*cnt)){
